@@ -1,5 +1,12 @@
-body {
+
+* {
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 18px;
-    
+   
+}
+img {
+    border-radius: 100%;
+    position: fixed;
+    left: -50%;
+    right: auto;
 }
