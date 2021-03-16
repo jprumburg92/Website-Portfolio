@@ -7,7 +7,7 @@ body {
     background-color: hsl(185, 75%, 39%);
 }
 
-img {
+.profile-picture {
     top: -50%;
     right: auto;
 }
