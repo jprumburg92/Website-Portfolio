@@ -7,6 +7,8 @@
 body {
     max-width: 100%;
     overflow-x: hidden;
+    max-height: 100%;
+    overflow-y: hidden;
     background-color: hsl(185, 75%, 39%);
 }
 
@@ -17,8 +19,8 @@ body {
 }
 .bottom {
     position: absolute;
-    left: 90%;
-    bottom: -20%;
+    left: 40%;
+    bottom: -50%;
 }
 
 .card {
