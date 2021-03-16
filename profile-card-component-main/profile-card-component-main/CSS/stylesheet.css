@@ -19,6 +19,7 @@ body {
 }
 
 .card {
+    position: absolute;
     top: 50%;
     left: auto;
     border: 5px solid white;
