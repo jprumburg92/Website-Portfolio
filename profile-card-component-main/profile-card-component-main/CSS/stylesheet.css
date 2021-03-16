@@ -2,15 +2,12 @@
 * {
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 18px;
-   
 }
 body {
     background-color: hsl(185, 75%, 39%);
 }
-}
+
 img {
-    border-radius: 100%;
-    position: fixed;
-    left: -50%;
+    top: -50%;
     right: auto;
 }
