@@ -16,8 +16,8 @@ body {
 }
 .bottom {
     position: absolute;
-    top: 45%;
-    left: -75%;
+    left: 90%;
+    bottom: 10%;
 }
 
 .card {
