@@ -5,6 +5,7 @@
 }
 
 body {
+    
     max-width: 100%;
     overflow-x: hidden;
     max-height: 100%;
@@ -24,7 +25,7 @@ body {
 }
 
 .card {
-    position: absolute;
+    position: relative;
     left: 50%;
     right: 50%;
     border: 5px solid white;
