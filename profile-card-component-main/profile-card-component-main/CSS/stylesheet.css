@@ -11,7 +11,8 @@ body {
 }
 
 .top {
-
+    top: -40%;
+    left: -30%;
 }
 .bottom {
     position: absolute;
