@@ -6,13 +6,8 @@
 body {
     background-color: hsl(185, 75%, 39%);
 }
-.encompassing {
-    position: relative;
-}
 .top {
-    
-    top: 5%;
-    left: -30%;
+
 }
 .bottom {
     position: absolute;
