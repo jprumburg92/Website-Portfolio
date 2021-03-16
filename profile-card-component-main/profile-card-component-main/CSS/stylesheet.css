@@ -7,12 +7,12 @@ body {
     background-color: hsl(185, 75%, 39%);
 }
 .top {
-    position: fixed;
+    position: absolute;
     top: 10%;
     left: -30%;
 }
 .bottom {
-    position: fixed;
+    position: absolute;
     top: 45%;
     left: -75%;
 }
@@ -21,9 +21,5 @@ body {
     position: relative;
     top: 50%;
     left: -50%;
-}
-.profile-picture {
-    
-    top: -50%;
-    right: auto;
+    border: 5px solid white;
 }
