@@ -6,6 +6,14 @@
 body {
     background-color: hsl(185, 75%, 39%);
 }
+.top {
+    position:absolute;
+    top: 10%;
+    left: -30%;
+}
+.bottom {
+
+}
 
 .profile-picture {
     top: -50%;
