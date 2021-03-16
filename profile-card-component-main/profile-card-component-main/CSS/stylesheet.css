@@ -35,3 +35,7 @@ body {
     left: 50%;
     border: 5px solid white;
 }
+
+.attribution {
+    bottom: 2%;
+}
