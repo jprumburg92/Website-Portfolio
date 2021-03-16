@@ -4,6 +4,7 @@
     font-size: 18px;
 }
 body {
+    position: relative;
     background-color: hsl(185, 75%, 39%);
 }
 .top {
