@@ -6,6 +6,9 @@
 body {
     background-color: hsl(185, 75%, 39%);
 }
+.encompassing {
+    max-width: 100%;
+}
 .top {
 
 }
