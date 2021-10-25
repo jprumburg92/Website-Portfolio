@@ -74,7 +74,23 @@ html {
  .portfolio-links {
      grid-area: portfolio-links;
      display: grid;
+     grid-template-areas:
+     "p1 p2 p3";
+     grid-column-gap: 13.5em;
+     padding-left: 13.5em;
+     padding-right: 13.5em;
+
  }
 
+.project {
+    display: grid;
+    grid-template-areas: 
+    "img"
+    "h4"
+    "h3"
+    "p"
+    "button";
+    grid-template-rows: repeat(4, 2em);
+    max-width: 33vw;
+}
 
-  
