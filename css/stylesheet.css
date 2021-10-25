@@ -39,7 +39,11 @@ html {
 
  button {
     border: 1px solid #D4B36A;
- }
+}
+
+a {
+    color: #D4B36A;
+}
 
  nav p {
      font-size: 3.25em;
