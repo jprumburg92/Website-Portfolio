@@ -1,4 +1,80 @@
 html { 
-   background: url("/images/background.png");
-   background-size: cover;
+   font-family: 'Cinzel', serif;
+   background-color: #1f1f1f; /*REMOVE ME*/
+   color: #DBC296; 
+
   }
+
+ img {
+     position: fixed;
+     top: 0;
+     left: 0;
+     opacity: .1;
+     background-size: cover;
+     min-width: 100vw;
+     min-height: 100vh;
+ } 
+
+ body {
+     display: grid;
+     grid-template-areas: 
+     "nav nav nav nav"
+     "name name name name"
+     "portfolio-links portfolio-links portfolio-links portfolio-links"
+     ;
+     grid-template-rows: .1fr .25fr 3fr;
+     min-height: 100vh;
+     margin: 2.875em 6.1875em 2.875em 4.75em;
+ }
+
+ nav { 
+     grid-area: nav;
+     display: grid;
+     grid-template-rows: auto;
+     grid-template-columns: repeat(4, 1fr);
+ }
+
+ nav p {
+     font-size: 3.25em;
+ }
+
+ nav button {
+     place-self: start end;
+ }
+
+ nav a {
+     place-self: start end;
+ }
+
+ .name {
+     grid-area: name;
+     display: grid;
+     grid-template-areas: 
+     ". . h1 . ."
+     ". . h2 . .";
+     padding: 2.5em;
+     padding-top: 10em;
+     padding-bottom: 10em;
+     grid-row-gap: 1em;
+ }
+
+ h1 {
+     grid-area: h1;
+     place-self: end center;
+     font-size: 4.5em;
+ }
+
+ h2 {
+     grid-area: h2;
+     place-self: start center;
+     font-size: 1.5em;
+     color: #CDCCCB;
+ }
+
+ .portfolio-links {
+     grid-area: portfolio-links;
+     display: grid;
+ }
+
+
+  
